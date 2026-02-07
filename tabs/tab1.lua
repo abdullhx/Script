@@ -1,6 +1,12 @@
-return function(Tab)
-    local Section = Tab:CreateSection("Controls")
+return function(Window)
+    local Tab = Window:CreateTab("الواجهة الأولى")
 
-    require("elements/toggle")(Tab)
-    require("elements/checkbox")(Tab)
+    -- تحميل عناصر التبويب
+    loadstring(game:HttpGet(
+        "https://raw.githubusercontent.com/abdullhx/Script/refs/heads/main/elements/toggle.lua"
+    ))()(Tab)
+
+    loadstring(game:HttpGet(
+        "https://raw.githubusercontent.com/USERNAME/REPO/main/elements/checkbox.lua"
+    ))()(Tab)
 end
