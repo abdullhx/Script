@@ -1,5 +1,5 @@
 local Rayfield = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/shlexware/Rayfield/main/source"
+    "https://sirius.menu/rayfield"
 ))()
 
 local Window, Tabs = require("ui/window")(Rayfield)
