@@ -13,9 +13,9 @@ local Window = Rayfield:CreateWindow({
 
 -- تحميل الواجهات (Tabs)
 local Tab1 = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/USERNAME/REPO/main/tabs/tab1.lua"
+    "https://raw.githubusercontent.com/abdullhx/Script/refs/heads/main/tabs/tab1.lua"
 ))()(Window)
 
 local Tab2 = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/USERNAME/REPO/main/tabs/tab2.lua"
+    "https://raw.githubusercontent.com/abdullhx/Script/refs/heads/main/tabs/tab2.lua"
 ))()(Window)
